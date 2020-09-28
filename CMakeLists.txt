@@ -7,3 +7,4 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}" -DASIO_STANDALONE -pthread)
 
 add_executable(timer1 timer_1_sync.cpp)
 add_executable(timer2 timer_2_async.cpp)
+add_executable(ipaddress1 ip_address.cpp)
